@@ -15,6 +15,8 @@ The magazine gave us a few questions to focus on.
 - Is the grade or condition rating of the house associated with the value of the home?
 
 ## Data 
+![King County Logo](Images/King_County_logo.png)
+
 In order to do this, we will be looking at a data set on houses and housing prices from [King County in Washington State](https://en.wikipedia.org/wiki/King_County,_Washington).
 
 ### Dataset Size
@@ -30,6 +32,7 @@ Additionally, there are many types of renovations that aren't included in the da
 Despite the above limitations, this dataset does represent a middle and upper class neighborhood, which is the demographic that the magazine is trying to appeal to. It does contain the information on bedrooms and bathrooms (which were some of the magazines specific questions that they wanted answers to) and was easily available. 
 
 ## Modeling
+![Lego Model House](Images/lego_home.png)
 
 ### Basic Model: Living Area Size
 For our first basic model we used square footage of living space (`sqft_living`) as our independent variable and home prices as our dependent variable. The relationship between `sqft_living` and `price` did not meet the criteria for linear regression, so we ran a log function on both 'price` and `sqft_living` and discovered that using 'log_price` allowed us to run a linear regression model. 
@@ -71,7 +74,9 @@ If one does maintain their home to this extent, ("All items well maintained, man
 
 Looking at the grade categories, we see that all of these categories are shown to be statistically significant. The coefficients of the grades increase as the grade increases, meaning that buildings with higher building grades are associated with higher log sale prices. 
 
-## Conclusion 
+## Conclusion
+![No Place Like Home Picture](Images/no_place_like_home.png)
+
 Will increasing the living area size lead to an associated increase in the value of the home?
 - Yes, with larger additions leading to larger increases in home prices. 
 
