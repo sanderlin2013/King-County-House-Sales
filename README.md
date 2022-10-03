@@ -15,6 +15,7 @@ The magazine gave us a few questions to focus on.
 
 ## Data 
 ![King County Logo](Images/King_County_logo.png)
+
 In order to do this, we will be looking at a data set on houses and housing prices from [King County in Washington State](https://en.wikipedia.org/wiki/King_County,_Washington).
 
 ### Dataset Size
