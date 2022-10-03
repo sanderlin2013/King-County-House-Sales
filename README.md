@@ -4,7 +4,7 @@
 **Author**: [Rachel Sanderlin](mailto:sanderlin2013@gmail.com)
 
 ## Overview
-Here we will be looking into the King County House Sales dataset to find information on how home renovations might increase the estimated value of homes for the magazine *'Home Owners Yearly'*, who wants to put out an article on what renovations will or will not be likely to improve the value of middle class and upper middle class homes.
+Here we will be looking into the King County House Sales dataset to find information on how home renovations might increase the estimated value of homes for the magazine *'Home Owners Yearly'*. The magazine wants to put out an article on what renovations will or will not be likely to improve the value of middle class and upper middle class homes.
 
 
 ## Business Problem
