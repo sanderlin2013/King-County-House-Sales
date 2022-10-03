@@ -58,6 +58,7 @@ In examining this model, we see that adding bedrooms and bathrooms are both asso
 
 ### Grade and Condition
 Finally, let's look at our final model - the fifth_model, to look at grade and condition. Just a reminder, grade indicates the construction/building quality of the house, while condition refers to the maintenance level. 
+
 ![Model 3 A](Images/third_model_A.png)
 
 ![Model 3 B](Images/third_model_B.png)
