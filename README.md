@@ -1,4 +1,5 @@
 # King County House Sales Analysis 
+![Home Sweet Home](Images/home_sweet_home.png)
 
 **Author**: [Rachel Sanderlin](mailto:sanderlin2013@gmail.com)
 
@@ -14,8 +15,6 @@ The magazine gave us a few questions to focus on.
 - Is the grade or condition rating of the house associated with the value of the home?
 
 ## Data 
-![King County Logo](Images/King_County_logo.png)
-
 In order to do this, we will be looking at a data set on houses and housing prices from [King County in Washington State](https://en.wikipedia.org/wiki/King_County,_Washington).
 
 ### Dataset Size
