@@ -49,9 +49,8 @@ We OHE both `grade` and `condition` as they are both quantitative variables. As 
 
 ![Baseline Model](Images/base_model_log100.png)
 
-We see here that there is a fairly large association between the log price of a home and its square footage of living space. This also has a small standard error, and confidence interval, making it a very accurate metric! As such, we can say that for every 100 square foot increase of living space in a home there is an association of an increase of .0396 of the log price. While this can be difficult to interpret in lay terms, it means all in all that based on what we see above there is a strong association between an increase in a home's square footage of living area and its price. Additionally, when we look at the R^2 we see that `sqft_living` can explain 46% of the `log_price` - a hefty chunk!
+We see here that there is a fairly large association between the log price of a home and its square footage of living space. This also has a small standard error, and confidence interval, making it a very accurate metric! As such, we can say that for every 100 square foot increase of living space in a home there is an association of an increase of .0396 of the log price. Based on what we see above we see that there is a strong association between an increase in a home's square footage of living area and its price. Additionally, when we look at the R^2 we see that `sqft_living` can explain 46% of the `log_price` - a hefty chunk!
 
-Graph of predicted home prices based compared to square foot living area: 
 ![Graph Predeicted Home Prices vs. SQFT Living Area](Images/graph_homeprice_100sqft_living.png)
 
 ### Bedrooms and Bathrooms
