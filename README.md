@@ -54,6 +54,7 @@ Graph of predicted home prices based compared to square foot living area:
 ![Model 2 A](Images/second_model_A.png)
 
 ![Model 2 B](Images/second_model_B.png)
+
 In examining this model, we see that adding bedrooms and bathrooms are both associated with an increase in the log price. The R^2 is lower than in our previous model (28.2%), which indicates that the number of bedrooms and bathrooms explains less of the log price than sqft_living. It's important to remember that there is likely collinearity between sqft_living and bedrooms and bathrooms, which could have led to the wonky results we saw in the analysis. That being said, we see that adding one bedroom is associated with a .05 (rounded) increase in log price, while adding one bathroom is associated with a .3 increase in log price - indicating that if you have to choose between adding a bedroom or a bathroom, adding a bathroom is indicated as the better fiscal choice. 
 
 ### Grade and Condition
