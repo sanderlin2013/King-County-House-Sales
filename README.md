@@ -52,9 +52,31 @@ In examining this model, we see that adding bedrooms and bathrooms are both asso
 
 ### Grade and Condition
 Finally, lets look at our final model - the fifth_model, to look at grade and condition. Just a reminder, grade indicates the construction/building quality of the house, while condition refers to the maintenance level. 
-# ADD FINAL MODEL IMAGE
+#ADD FINAL MODEL IMAGE
 At first glance, we see that the p-values of all of the conditions, except condition_5, indicate that these are not valuble contributers to the log price. From this, we can conclude that home maintenance only affects the sale price of a home if it is at the highest level. This makes sense, as it's usually assumed when one buys a home that some aspects will be run down and repairs will need to be made.
 
 If one does maintain their home to this extent, ("All items well maintained, many having been overhauled and repaired as they have shown signs of wear, increasing the life expectancy and lowering the effective age with little deterioration or obsolescence evident with a high degree of utility") then there is an associated increase in log price of .2652.
 
 Looking at the grade categories, we see that all of these categories are shown to be statistically significant. The coefficients of the grades increase as the grade increases, meaning that buildings with higher building grades are associated with higher log sale prices. 
+
+## Conclusion 
+Will increasing the living area size lead to an associated increase in the value of the home?
+- Yes, with larger additions leading to larger increases in home prices. 
+
+Will adding bedrooms or bathrooms lead to an associated increase in the value of the home?
+- Yes, but bathrooms lead to a significantly larger increase.
+
+Is the grade or condition rating of the house associated with the value of the home?
+- Only the highest level of maintenance (condition) increases the sale price of a home
+- Increasing the building quality is associated with higher home sale prices
+
+### Possible Next Steps
+- Look at data from other counties
+- Look further into disentangling 
+the collinearity between living space and 
+bedrooms/bathrooms
+- Investigate datasets with information 
+on other renovations (plumbing, electric, ect.)
+
+
+
