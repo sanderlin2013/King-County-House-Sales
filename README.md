@@ -75,7 +75,7 @@ If one does maintain their home to this extent, ("All items well maintained, man
 Looking at the grade categories, we see that all of these categories are shown to be statistically significant. The coefficients of the grades increase as the grade increases, meaning that buildings with higher building grades are associated with higher log sale prices. 
 
 ## Conclusion
-![No Place Like Home Picture](Images/no_place_like_home.png)
+![No Place Like Home Picture](Images/no_place.png)
 
 Will increasing the living area size lead to an associated increase in the value of the home?
 - Yes, with larger additions leading to larger increases in home prices. 
