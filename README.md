@@ -52,13 +52,14 @@ Graph of predicted home prices based compared to square foot living area:
 
 ### Bedrooms and Bathrooms
 ![Model 2 A](Images/second_model_A.png)
-![Model 2 B](Images/second_model_B.png)
 
+![Model 2 B](Images/second_model_B.png)
 In examining this model, we see that adding bedrooms and bathrooms are both associated with an increase in the log price. The R^2 is lower than in our previous model (28.2%), which indicates that the number of bedrooms and bathrooms explains less of the log price than sqft_living. It's important to remember that there is likely collinearity between sqft_living and bedrooms and bathrooms, which could have led to the wonky results we saw in the analysis. That being said, we see that adding one bedroom is associated with a .05 (rounded) increase in log price, while adding one bathroom is associated with a .3 increase in log price - indicating that if you have to choose between adding a bedroom or a bathroom, adding a bathroom is indicated as the better fiscal choice. 
 
 ### Grade and Condition
 Finally, let's look at our final model - the fifth_model, to look at grade and condition. Just a reminder, grade indicates the construction/building quality of the house, while condition refers to the maintenance level. 
 ![Model 3 A](Images/third_model_A.png)
+
 ![Model 3 B](Images/third_model_B.png)
 
 At first glance, we see that the p-values of all of the conditions, except condition_5, indicate that these are not valuable contributors to the log price. From this, we can conclude that home maintenance only affects the sale price of a home if it is at the highest level. This makes sense, as it's usually assumed when one buys a home that some aspects will be run down and repairs will need to be made.
