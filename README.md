@@ -70,10 +70,28 @@ Is the grade or condition rating of the house associated with the value of the h
 - Only the highest level of maintenance (condition) increases the sale price of a home
 - Increasing the building quality is associated with higher home sale prices
 
-### Possible Next Steps
+## Possible Next Steps
 - Look at data from other counties
 - Look further into disentangling 
 the collinearity between living space and 
 bedrooms/bathrooms
 - Investigate datasets with information 
 on other renovations (plumbing, electric, ect.)
+
+## For More Information
+See the full analysis in the [Jupyter Notebook](https://github.com/sanderlin2013/King-County-House-Sales/blob/main/Kings%20County%20House%20Sales%20Analysis%20.ipynb) or review this [presentation](https://github.com/sanderlin2013/King-County-House-Sales/blob/main/Kings%20County%20House%20Sales%20Analysis%20.ipynb).
+
+For additional info, contact Rachel Sanderlin at [sanderlin2013@gmail.com](mailto:sanderlin2013@gmail.com)
+
+## Repository Structure
+
+```
+├── Images
+├── zipped_data
+├── Movie_Data_Analysis.ipynb
+├── README.md
+├── notebook.pdf
+├── presentation.pdf
+└── requirements.txt
+```
+
